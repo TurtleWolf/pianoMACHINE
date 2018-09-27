@@ -20,6 +20,9 @@ body.addEventListener("keypress", runEvent);
 
 function runEvent(e) {
   const keyName = event.key;
+
+  const note = document.querySelector(`[data-sound-id="${keyName}"]`).play();
+
   // alert("keypress event\n\n" + "key: " + keyName);
   console.log(`EVENT TYPE: ${e.type}`);
   console.log(e.target.value);
