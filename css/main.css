@@ -18,6 +18,9 @@ html,
   -o-background-size: cover;
   background-size: cover;
 }
+.collection-item {
+  background-color: rgba(117, 190, 218, 0.5); /* 50% transparent */
+}
 a {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
