@@ -18,9 +18,17 @@ body.addEventListener("keypress", runEvent);
 // Change
 // select.addEventListener('change', runEvent);
 
+let globalVolume = 1;
+window.SetVolume = function(val) {
+  var player = document.getElementsByTagName("audio");
+  console.log("Before: " + player.volume);
+  player.volume = val / 100;
+  globalVolume = player.volume;
+  console.log("After: " + player.volume);
+};
 function runEvent(e) {
   const keyName = event.key;
-
+  //audio.volume = globalVolume; // trying to apply this audio volume to note below
   const note = document.querySelector(`[data-sound-id="${keyName}"]`).play();
 
   // alert("keypress event\n\n" + "key: " + keyName);
