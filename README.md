@@ -4,6 +4,7 @@ Remember when we were all skinning our music players?
 pianoMACHINE press [a,s,d,f,g,h,j,k,l] to play one of nine sounds
 
 [Modern JavaScript From the Beginning](https://www.udemy.com/share/10015YBEcTdV1aQQ==/ "Udemy Development Coach @ Traversy Media .. project inspired after first 33 videos of fundamentals")
+[https://javascript30.com/](https://javascript30.com/ "Literally the first 20 minute project!")  
 
 ### ..journey to now
 
