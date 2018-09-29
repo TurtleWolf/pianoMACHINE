@@ -21,27 +21,14 @@ html,
 .collection .collection-item {
   background-color: rgba(117, 121, 39, 0.1); /* 50% transparent */
 }
-/*
-
-
-
-.collection {
-  margin-top: 20%; 
-}
-
-
-
- */
 
 a {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
-#backColor-container {
-  background-color: rgba(0, 0, 100, 0.6);
-}
+
 .container {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 #navbar {
   left: 0px;
@@ -74,17 +61,9 @@ p {
   -o-background-size: cover;
   background-size: cover;
 }
-code {
-  background-color: #1565c0;
-  font: Inconsolata;
-  color: white;
-}
+
 @media (max-width: 1250px) {
   /* @media (width <= 30em) {....}  */
-  section {
-    margin-top: 15px;
-    border: 1mm ridge rgb(333, 333, 333, 0.6);
-  }
 } /* end of media query 1250px */
 footer {
   position: fixed;

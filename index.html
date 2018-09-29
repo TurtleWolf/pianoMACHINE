@@ -41,18 +41,19 @@
 
 
 
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
-
+  <label for="t-rex-roar-loop">
+    a
+  </label>
+  <br />
+  <!-- This time we use the source element instead of the src attribute -->
+  <audio id="t-rex-roar-loop" data-sound-id="a" controls>
+    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/a1.mp3?raw=true" />
+    Your browser does not support the <code>audio</code> element.
+  </audio>
+  </p>
 
   <div class="keys">
+    <h2 id="task-title">Word on the Street</h2>
     <div data-key="65" class="key">
       <kbd>A</kbd>
       <span class="sound">clap</span>
@@ -89,318 +90,183 @@
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
-    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-    <h2 id="task-title">Word on the Street</h2>
     <h2 id="task-title">Chattanooga TN</h2>
-    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
   </div>
   <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <div id="main" class="card">
-          <div class="card-action">
-            <ul class="collection">
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    A
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="A" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\ArabWham(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    S
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="S" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\CrazyTown(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    D
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="D" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DooSoul(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    F
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="F" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DoYoThang(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    G
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="G" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\HipHOP_Bap006.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    H
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="H" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\K.I.S.S.(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    J
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="J" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Pimpish(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    K
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="K" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Rhodes(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    L
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="L" loop controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Teflon(SPN).mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-            </ul>
-          </div><!-- backloops on the right collumn -->
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+    <p>
+      <div class="row">
+        <div class="col s12">
+          <div id="main" class="card">
+            <div class="card-action">
+              <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)">SetVolume</input>
+              <ul class="collection">
 
-          <div class="card-action">
-
-            <ul class="collection">
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    a
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="a" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/a1.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    s
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="s" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/a1s.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    d
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="d" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/b1.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    f
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="f" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/c1.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    g
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="g" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/c1s.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    h
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="h" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/c2.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    j
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="j" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/d1.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    k
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="k" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/d1s.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-              <li class="collection-item">
-                <p>
-                  <label for="t-rex-roar-loop">
-                    l
-                  </label>
-                  <br />
-                  <!-- This time we use the source element instead of the src attribute -->
-                  <audio id="t-rex-roar-loop" data-sound-id="l" controls>
-                    <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/mp3/e1.mp3?raw=true" />
-                    Your browser does not support the <code>audio</code> element.
-                  </audio>
-                </p>
-                <a href="#" class="delete-item secondary-content">
-                  <i class="fa fa-remove"></i>
-                </a>
-              </li>
-            </ul>
-          </div><!-- accent beats on the left collumn -->
+                <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)"
+                  onchange="SetVolume(this.value)"></input>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      A
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="A" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\ArabWham(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      S
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="S" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\CrazyTown(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      D
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="D" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DooSoul(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      F
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="F" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DoYoThang(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      G
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="G" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\HipHOP_Bap006.mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      H
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="H" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\K.I.S.S.(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      J
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="J" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Pimpish(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      K
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="K" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Rhodes(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  <p>
+                    <label for="t-rex-roar-loop">
+                      L
+                    </label>
+                    <br />
+                    <!-- This time we use the source element instead of the src attribute -->
+                    <audio id="t-rex-roar-loop" data-sound-id="L" loop controls>
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Teflon(SPN).mp3?raw=true" />
+                      Your browser does not support the <code>audio</code> element.
+                    </audio>
+                  </p>
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+              </ul>
+            </div><!-- backloops on the right collumn -->
 
 
+
+
+
+
+          </div>
         </div>
       </div>
-    </div>
   </div>
   <footer>
     <a href="https://github.com/TurtleWolf/Responsive-Web-Design_-_Technical-Document/" rel="link">source code on
