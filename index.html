@@ -51,51 +51,54 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+    <h2 id="task-title">Word on the Street</h2>
+    <h2 id="task-title">Chattanooga TN</h2>
+    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col s12">
         <div id="main" class="card">
           <div class="card-action">
-            <div class="keys">
-              <div data-key="65" class="key">
-                <kbd>A</kbd>
-                <span class="sound">clap</span>
-              </div>
-              <div data-key="83" class="key">
-                <kbd>S</kbd>
-                <span class="sound">hihat</span>
-              </div>
-              <div data-key="68" class="key">
-                <kbd>D</kbd>
-                <span class="sound">kick</span>
-              </div>
-              <div data-key="70" class="key">
-                <kbd>F</kbd>
-                <span class="sound">openhat</span>
-              </div>
-              <div data-key="71" class="key">
-                <kbd>G</kbd>
-                <span class="sound">boom</span>
-              </div>
-              <div data-key="72" class="key">
-                <kbd>H</kbd>
-                <span class="sound">ride</span>
-              </div>
-              <div data-key="74" class="key">
-                <kbd>J</kbd>
-                <span class="sound">snare</span>
-              </div>
-              <div data-key="75" class="key">
-                <kbd>K</kbd>
-                <span class="sound">tom</span>
-              </div>
-              <div data-key="76" class="key">
-                <kbd>L</kbd>
-                <span class="sound">tink</span>
-              </div>
-            </div>
-            <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-            <h2 id="task-title">asdfg</h2>
             <ul class="collection">
               <li class="collection-item">
                 <p>
@@ -245,8 +248,7 @@
           </div><!-- backloops on the right collumn -->
 
           <div class="card-action">
-            <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-            <h2 id="task-title">Word on the Street, Chattanooga TN</h2>
+
             <ul class="collection">
               <li class="collection-item">
                 <p>

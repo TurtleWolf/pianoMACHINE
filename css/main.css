@@ -19,8 +19,20 @@ html,
   background-size: cover;
 }
 .collection .collection-item {
-  background-color: rgba(117, 121, 39, 0.5); /* 50% transparent */
+  background-color: rgba(117, 121, 39, 0.1); /* 50% transparent */
 }
+/*
+
+
+
+.collection {
+  margin-top: 20%; 
+}
+
+
+
+ */
+
 a {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
@@ -28,10 +40,8 @@ a {
 #backColor-container {
   background-color: rgba(0, 0, 100, 0.6);
 }
-#head-container {
-  display: flex;
-  flex-direction: reverse;
-  width: 100%;
+.container {
+  margin-top: 20%;
 }
 #navbar {
   left: 0px;
@@ -99,13 +109,20 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /* 
+  top: 25%;
+  50% transparent 
+  */
 }
 
 .keys {
+  top: 0;
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  z-index: 1;
 }
 
 .key {
