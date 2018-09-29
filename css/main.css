@@ -18,8 +18,8 @@ html,
   -o-background-size: cover;
   background-size: cover;
 }
-.collection-item {
-  background-color: rgba(117, 190, 218, 0.5); /* 50% transparent */
+.collection .collection-item {
+  background-color: rgba(117, 121, 39, 0.5); /* 50% transparent */
 }
 a {
   color: yellow;
@@ -104,7 +104,6 @@ html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
