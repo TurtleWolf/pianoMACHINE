@@ -6,9 +6,6 @@
 // // Clear input
 // // taskInput.value = "";
 
-// // Keypress
-// //taskInput.addEventListener("keypress", runEvent);
-// body.addEventListener("keypress", runEvent);
 // // Focus
 // // taskInput.addEventListener('focus', runEvent);
 // // Blur
@@ -29,7 +26,6 @@
 // function runEvent(e) {
 //   const keyName = event.key;
 //   //audio.volume = globalVolume; // trying to apply this audio volume to note below
-//   const note = document.querySelector(`[data-sound-id="${keyName}"]`).play();
 
 //   // alert("keypress event\n\n" + "key: " + keyName);
 //   console.log(`EVENT TYPE: ${e.type}`);
@@ -48,15 +44,19 @@ function removeTransition(e) {
 }
 
 function playSound(e) {
-  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-  const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+  //   const note = document.querySelector(`[data-sound-id="${keyName}"]`).play();
+  const keyName = event.key;
+  const audio = document.querySelector(`audio[data-sound-id="${keyName}"]`);
+  const key = document.querySelector(`div[data-sound-id="${keyName}"]`);
   if (!audio) return;
 
-  key.classList.add("playing");
+  //key.classList.add("playing");
   audio.currentTime = 0;
   audio.play();
 }
-
+// // Keypress
+// //taskInput.addEventListener("keypress", runEvent);
+// body.addEventListener("keypress", runEvent);
 const keys = Array.from(document.querySelectorAll(".key"));
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
-window.addEventListener("keydown", playSound);
+window.addEventListener("keypress", playSound);
