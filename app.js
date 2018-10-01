@@ -50,7 +50,7 @@ function playSound(e) {
   const key = document.querySelector(`div[data-sound-id="${keyName}"]`);
   if (!audio) return;
 
-  //key.classList.add("playing");
+  key.classList.add("playing");
   audio.currentTime = 0;
   audio.play();
 }
