@@ -138,3 +138,7 @@ kbd {
   z-index: 1;
   */
 }
+#task-title {
+  justify-content: right;
+  margin-left: 7%;
+}
