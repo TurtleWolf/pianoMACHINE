@@ -86,7 +86,7 @@
   <audio data-sound-id="i" src="sounds/snare.wav"></audio>
   <audio data-sound-id="o" src="sounds/tom.wav"></audio>
   <audio data-sound-id="p" src="sounds/tink.wav"></audio>
-  </p>
+
 
   <div class="keys">
     <h2 id="task-title">Word on the Street</h2>
@@ -134,11 +134,11 @@
         <div class="col s12">
           <div id="main" class="card">
             <div class="card-action">
-              <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)">SetVolume</input>
+              <input id="accent-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)"
+                onchange="SetVolume(this.value)">SetVolume</input>
+              <input id="backloop-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)"
+                onchange="SetVolume(this.value)"></input>
               <ul class="collection">
-
-                <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)"
-                  onchange="SetVolume(this.value)"></input>
                 <li class="collection-item">
                   <p>
                     <label for="t-rex-roar-loop">
@@ -147,7 +147,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="Q" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\ArabWham(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/arb.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -163,7 +163,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="W" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\CrazyTown(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/czt.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -179,7 +179,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="E" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DooSoul(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/doo.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -195,7 +195,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="R" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\DoYoThang(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/dyt.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -211,7 +211,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="Y" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\HipHOP_Bap006.mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/hhp.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -227,7 +227,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="U" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\K.I.S.S.(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/kis.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -243,7 +243,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="I" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Pimpish(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/pim.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -259,7 +259,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="O" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Rhodes(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/rho.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
@@ -275,7 +275,7 @@
                     <br />
                     <!-- This time we use the source element instead of the src attribute -->
                     <audio id="t-rex-roar-loop" data-sound-id="P" loop controls>
-                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(LoopMp3)\Teflon(SPN).mp3?raw=true" />
+                      <source type="audio/mpeg" src="https://github.com/TurtleWolf/pianoMACHINE/blob/master/SPN(NooLoops)/tef.mp3?raw=true" />
                       Your browser does not support the <code>audio</code> element.
                     </audio>
                   </p>
