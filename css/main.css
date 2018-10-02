@@ -66,6 +66,7 @@ p {
   /* @media (width <= 30em) {....}  */
 } /* end of media query 1250px */
 footer {
+  z-index: 2;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -185,4 +186,8 @@ kbd {
 #task-title {
   justify-content: right;
   margin-left: 7%;
+}
+.float-right {
+  float: right;
+  margin: 7%;
 }
