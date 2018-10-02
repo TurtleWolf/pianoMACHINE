@@ -69,12 +69,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: url(https://github.com/TurtleWolf/Responsive-Web-Design_-_Technical-Document/blob/master/800px-Joy_Oil_gas_station_blueprints.jpg?raw=true)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: black;
 }
 html {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
