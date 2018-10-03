@@ -9,26 +9,29 @@ html,
 .card-action {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
-  height: 100%;
+  /* height: 100%;
   position: relative;
   background: url(https://github.com/TurtleWolf/pianoMACHINE/blob/master/images/ChattanoogaBridge.jpg?raw=true)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 .collection .collection-item {
   background-color: rgba(117, 121, 39, 0.1); /* 50% transparent */
 }
 
 a {
+  color: lightblue;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+}
+.yallow {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
-
 .container {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 #navbar {
   left: 0px;
@@ -42,13 +45,7 @@ header {
   text-align: right;
   float: right;
 }
-#main-doc {
-  margin-top: 20%;
-  margin-left: 8%;
-  width: 55%;
-  border: double #32a1ce;
-  padding: 4%;
-}
+
 p {
   color: yellow;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
@@ -69,8 +66,8 @@ footer {
   z-index: 2;
   position: fixed;
   bottom: 0;
-  width: 100%;
   background-color: black;
+  border-radius: 13%;
 }
 html {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
@@ -129,6 +126,8 @@ html {
 }
 .keyz-loop {
   float: right;
+  top: 0;
+  clear: right;
 }
 .keyz {
   top: 0;

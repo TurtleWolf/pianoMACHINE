@@ -1,6 +1,6 @@
 # [asdfg keyboard === KEYBOARD](https://turtlewolf.github.io/pianoMACHINE/ "pianoMACHINE press [a,s,d,f,g,h,j,k,l] to play one of nine sounds")
 
-Remember when we were all skinning our music players?  
+Remember when we were all skinning our own music players?  
 pianoMACHINE press [a,s,d,f,g,h,j,k,l] to play one of nine sounds
 
 [Modern JavaScript From the Beginning](https://www.udemy.com/share/10015YBEcTdV1aQQ==/ "Udemy Development Coach @ Traversy Media .. project inspired after first 33 videos which cover the fundamentals")  
