@@ -1,11 +1,13 @@
 # [asdfg keyboard === KEYBOARD](https://turtlewolf.github.io/pianoMACHINE/ "pianoMACHINE press [a,s,d,f,g,h,j,k,l] to play one of nine sounds")
 
 Remember when we were all skinning our own music players?  
-pianoMACHINE press [a,s,d,f,g,h,j,k,l] to play one of nine sounds
+ press [a,s,d,f,g,h,j,k,l] to play one of nine DRUM sounds  
+ press [A,S,D,F,G,H,J,K,L] to play one of nine PIANO sounds  
+ press [1,2,3,4,5,6,7,8,9] to play one of nine BACKING LOOPS
 
 [Modern JavaScript From the Beginning](https://www.udemy.com/share/10015YBEcTdV1aQQ==/ "Udemy Development Coach @ Traversy Media .. project inspired after first 33 videos which cover the fundamentals")  
 [https://javascript30.com/](https://javascript30.com/ "Literally the first 20 minute project!")  
-[freeSOUND.org](https://freesound.org/people/TurtleWolf/bookmarks/category/90037/?page=1 "check out my bookmarks & then go link your own collections")
+[freeSOUND.org](https://freesound.org/people/TurtleWolf/bookmarks/category/90037/ "check out my bookmarks & then go link your own collections")
 
 ### ..journey to now
 
