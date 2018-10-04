@@ -43,6 +43,18 @@ function removeTransition(e) {
   e.target.classList.remove("playing");
 }
 
+const players = document.querySelectorAll("audio");
+const volumeControl = document.getElementById("accent-control");
+let globalVolume = 1;
+
+volumeControl.addEventListener("change", function() {
+  globalVolume = volumeControl.value / 100;
+
+  players.forEach(function(player) {
+    player.volume = globalVolume;
+  });
+});
+
 function playSound(e) {
   //   const note = document.querySelector(`[data-sound-id="${keyName}"]`).play();
   const keyName = event.key;
