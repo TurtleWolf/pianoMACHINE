@@ -12,14 +12,20 @@ Remember when we were all skinning our own music players?
 ### ..journey to now
 
 1. [.addEventListener.play(${`audio-id`})](https://www.twitch.tv/videos/315409005 "twitch list")
-1. [global volume slider](https://www.google.com "Google's Homepage")
+1. [2nd volume slider](https://www.twitch.tv/videos/319189252 "const accents = document.querySelectorAll('.accent');")
 1. [drop down selector for looping backbeat](https://www.google.com "Google's Homepage")
 
 ![Udemy Development Coach @ Traversy Media](https://github.com/TurtleWolf/pianoMACHINE/blob/master/Capture.PNG "pianoMACHINE")
 
 ### Road Map, feature request
 
-1. [let a sound repeat before it's done playing](https://www.google.com "Google's Homepage")
-1. [global volume slider](https://github.com/TurtleWolf/pianoMACHINE/issues/2 "Hoping to allow the volume slider to affect all of the audio tags, or really just the ones in this unordered list. There'll be another column soon that needs its own volume adjustment
-The Slider is appearing in the console log, but I need to assign it before the sound is plaid")
-1. [drop down selector for looping backbeat](https://www.google.com "Google's Homepage")
+1. [merge solution](https://www.google.com "bring 2 sliders back from jkl fork")
+1. [media queries](https://github.com/TurtleWolf/pianoMACHINE/issues/2 "standard sizes")
+1. [toggle selector for looping backbeat](https://www.google.com "turn all 10 back loops on or off & include visual extension of .playing css")
+
+#### Version 2.0
+
+1. [soundFree api search queries](https://www.google.com "client side search queries into the soundFree api")
+1. [store user edits](https://github.com/TurtleWolf/pianoMACHINE/issues/2 "local storage or user sign in?")
+1. [preview loop and play query returns](https://www.google.com "template literal for api call")
+1. [drag and drop query returns](https://www.google.com ".draggable & .target droppable set audio.source = 'url'")
